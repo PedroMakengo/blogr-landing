@@ -1,0 +1,80 @@
+.header {
+  width: 100vw;
+  height: 70vh;
+  background-color: #ff856e;
+  background-image: url(../../../public/images/bg-pattern-intro.svg);
+  background-position: right;
+  background-position-x: -5rem;
+  background-size: 150%;
+
+  border-bottom-left-radius: 6rem;
+
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 2.5rem;
+
+    .navegation {
+      width: 70%;
+
+      display: flex;
+      align-items: center;
+
+      nav {
+        margin-left: 3rem;
+
+        a {
+          font-size: 1.1rem;
+          color: white;
+
+          & + a {
+            margin-left: 2.2rem;
+          }
+        }
+      }
+    }
+    .logins {
+      button {
+        background: transparent;
+        width: 140px;
+        height: 2.5rem;
+        color: white;
+
+        border: 0;
+        border-radius: 50px;
+
+        cursor: pointer;
+
+        & + button {
+          background: white;
+          color: #ff856e;
+        }
+      }
+    }
+  }
+
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+
+    text-align: center;
+    padding-top: 5rem;
+
+    h1 {
+      font-weight: 400;
+      font-size: 3.5rem;
+      color: white;
+    }
+
+    p {
+      font-size: 1.3rem;
+      font-weight: 100;
+      color: white;
+    }
+  }
+}
