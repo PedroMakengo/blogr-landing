@@ -1,6 +1,6 @@
 .header {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   background-color: #ff856e;
   background-image: url(../../../public/images/bg-pattern-intro.svg);
   background-position: right;
@@ -75,6 +75,21 @@
       font-size: 1.3rem;
       font-weight: 100;
       color: white;
+      margin-bottom: 3rem;
+    }
+
+    button {
+      background: #fff;
+      color: #ff856e;
+      font-weight: bold;
+      font-family: Roboto;
+
+      & + button {
+        margin-left: 2rem;
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+      }
     }
   }
 }

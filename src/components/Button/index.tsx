@@ -1,9 +1,14 @@
 import style from "./style.module.scss";
 
-export function Button({ props }) {
+interface ButtonProps {
+  onclick: () => void;
+  title: string;
+}
+
+export function Button({ onclick, title }: ButtonProps) {
   return (
-    <button onClick={props.onclick} className={style.button}>
-      {props.title}
+    <button onClick={onclick} className={style.button}>
+      {title}
     </button>
   );
 }
