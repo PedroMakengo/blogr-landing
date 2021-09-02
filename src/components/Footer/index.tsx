@@ -1,7 +1,12 @@
+import style from "./style.module.scss";
+
 export function Footer() {
   return (
-    <footer>
-      <h1>Footer</h1>
+    <footer className={style.footer}>
+      <div className={style.container}>
+        <img src="../../../images/logo.svg" alt="" />
+        <div>Menu</div>
+      </div>
     </footer>
   );
 }

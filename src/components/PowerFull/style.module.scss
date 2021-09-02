@@ -1,0 +1,32 @@
+.powerfull {
+  background: url(../../../public/images/illustration-laptop-desktop.svg);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-position-x: -16rem;
+
+  height: 100vh;
+
+  padding-top: 7rem;
+  margin-top: 8rem;
+
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .free {
+      width: 50%;
+      margin-top: 6.5rem;
+
+      p {
+        line-height: 1.9rem;
+        color: #6e6e6e;
+      }
+    }
+  }
+}
