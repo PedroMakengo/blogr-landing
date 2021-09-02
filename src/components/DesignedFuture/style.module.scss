@@ -1,11 +1,12 @@
 .designerfuture {
-  height: 1000px;
+  height: 100vh;
   background-image: url(../../../public/images/illustration-editor-desktop.svg);
-  background-size: 70%;
+  background-size: 55%;
   background-repeat: no-repeat;
-  background-position-x: 39rem;
+  background-position-x: 50rem;
 
   margin-top: 5rem;
+  padding-bottom: 2rem;
 
   .container {
     max-width: 1120px;
@@ -15,6 +16,24 @@
       font-weight: bold;
       font-size: 2rem;
       text-align: center;
+
+      color: #1c394c;
+    }
+
+    .content {
+      padding-top: 8rem;
+      .item {
+        width: 45%;
+
+        h2 {
+          color: #1c394c;
+        }
+
+        p {
+          line-height: 1.8rem;
+          color: #555555;
+        }
+      }
     }
   }
 }

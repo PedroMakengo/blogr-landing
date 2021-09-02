@@ -1,12 +1,13 @@
 interface DescribeProps {
   title: string;
   paragraph: string;
+  className?: string;
 }
 
-export function Describe({ title, paragraph }: DescribeProps) {
+export function Describe({ title, paragraph, className }: DescribeProps) {
   return (
-    <div>
-      <h1>{title}</h1>
+    <div className={className}>
+      <h2>{title}</h2>
       <p>{paragraph}</p>
     </div>
   );

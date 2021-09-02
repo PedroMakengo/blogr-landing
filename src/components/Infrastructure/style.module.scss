@@ -1,0 +1,45 @@
+.infra {
+  background: url(../../../public/images/bg-pattern-circles.svg), #363851;
+  background-repeat: no-repeat;
+  background-size: 75%;
+
+  background-position-y: -30rem;
+  background-position-x: -15rem;
+
+  border-top-right-radius: 6rem;
+  border-bottom-left-radius: 6rem;
+  height: 60vh;
+
+  margin-top: 5rem;
+
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      margin-top: -4rem;
+    }
+
+    .state {
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      flex-direction: column;
+      color: #fff;
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        width: 80%;
+        line-height: 2rem;
+        color: #d4d4d4;
+      }
+    }
+  }
+}
