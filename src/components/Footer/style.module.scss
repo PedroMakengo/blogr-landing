@@ -25,16 +25,23 @@
 
     .menuFooter {
       width: 70%;
+      display: flex;
+      align-items: center;
 
-      nav {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1.5rem;
+      .itemFooter {
+        width: 50%;
 
-        a {
-          color: #ccc;
-          & + a {
-            margin-top: 1.5rem;
+        nav {
+          height: 190px;
+          display: flex;
+          flex-direction: column;
+          margin-top: 1.5rem;
+
+          a {
+            color: #ccc;
+            & + a {
+              margin-top: 1.5rem;
+            }
           }
         }
       }
